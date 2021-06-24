@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">2dp</dimen>
+    <dimen name="default_margin_duo">4dp</dimen>
+    <string name="app_name">Calculadora</string>
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.NoActionBar"/>
+    <style name="botao">
+        <item name="android:background">#3F51B5</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+    <style name="botaoDestaque">
+        <item name="android:background">#FF9100</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+    <style name="tema">
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:background">#303F9F</item>
+    </style>
+    <style name="visor">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#EEFFFFFF</item>
+    </style>
+    <style name="visorPrincipal">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

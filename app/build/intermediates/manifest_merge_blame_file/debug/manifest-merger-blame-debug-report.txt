@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.projeto.calculadora"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:5:5-19:19
+12        android:allowBackup="true"
+12-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:8:9-41
+16        android:testOnly="true"
+17        android:theme="@style/AppTheme" >
+17-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:9:9-40
+18        <activity
+18-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:10:9-18:20
+19            android:name="com.projeto.MainActivity"
+19-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:11:13-52
+20            android:label="@string/app_name" >
+20-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:12:13-45
+21            <intent-filter>
+21-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:13:13-16:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:14:17-69
+22-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:15:17-77
+24-->C:\Users\Administrador\AndroidStudioProjects\ProjetoFacul\app\src\main\AndroidManifest.xml:15:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>
